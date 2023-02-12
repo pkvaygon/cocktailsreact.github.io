@@ -1,0 +1,11 @@
+.back {
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.587);
+}
+
+.back h2 {
+    margin-top: 0;
+}

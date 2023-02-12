@@ -1,0 +1,35 @@
+.blur {
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.500);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex img {
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.flex img:hover {
+    transform: translateX(-10%) translateY(5%) scale(1.1);
+}
+
+.details li {
+
+    list-style: none;
+    font-size: 24px;
+    font-weight: 600;
+    background: rgb(211, 77, 77);
+    /* border-radius: 10px; */
+    text-decoration: double;
+}
+
+.details li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 10px white;
+}
